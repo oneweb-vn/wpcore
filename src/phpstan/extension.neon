@@ -1,0 +1,5 @@
+services:
+  -
+    class: wpcore\PHPStan\GetThemeModReturnType
+    tags:
+      - phpstan.broker.dynamicFunctionReturnTypeExtension
